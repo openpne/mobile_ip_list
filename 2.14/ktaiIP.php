@@ -4,7 +4,7 @@
 // 'IP Adress/BitMask' の形式で入力してください
 $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
 
-// DoCoMo (2008/09/17更新)
+// DoCoMo (2010/06/24更新)
 // http://www.nttdocomo.co.jp/service/imode/make/content/ip/index.html
 'i' => array(
     '210.153.84.0/24',
@@ -12,9 +12,12 @@ $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
     '210.153.86.0/24',
     '124.146.174.0/24',
     '124.146.175.0/24',
+    '202.229.176.0/24',
+    '202.229.177.0/24',
+    '202.229.178.0/24',
 ),
 
-// au (2010/03/17更新)
+// au (2010/06/24更新)
 // http://www.au.kddi.com/ezfactory/tec/spec/ezsava_ip.html
 'e' => array(
     '210.230.128.224/28',
@@ -38,6 +41,7 @@ $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
     '118.159.131.0/25',
     '118.159.133.0/25',
     '118.159.132.160/27',
+    '118.159.133.192/26',
     '111.86.142.0/26',
     '111.86.141.64/26',
     '111.86.141.128/26',
