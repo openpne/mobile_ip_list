@@ -16,6 +16,13 @@
  * limitations under the License.
  */
 
+/**
+ * 2011/10/17 リリース版
+ * ・au 2011年秋冬モデルの携帯電話IPアドレス帯域を追加
+ * ・ファイルにライセンスを適用（Apache License Version 2.0)
+ * ・ファイルの冒頭にバージョンと変更内容を記述
+ */
+
 // 許可するIP帯域のリスト
 // 'IP Adress/BitMask' の形式で入力してください
 $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
