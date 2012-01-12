@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright 2005-2011 OpenPNE Project (http://www.openpne.jp/)
+ * Copyright 2005-2012 OpenPNE Project (http://www.openpne.jp/)
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
