@@ -19,6 +19,7 @@
 /**
  * 2012/01/12 リリース版
  * ・WILLCOM 2012/1/11 IPアドレス帯域の追加に対応
+ * ・DoCoMo, SoftBank の参照先URLを変更
  */
 
 // 許可するIP帯域のリスト
@@ -26,7 +27,7 @@
 $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
 
 // DoCoMo (2010/06/24更新)
-// http://www.nttdocomo.co.jp/service/imode/make/content/ip/index.html
+// http://www.nttdocomo.co.jp/service/developer/make/content/ip/index.html
 'i' => array(
     '210.153.84.0/24',
     '210.136.161.0/24',
@@ -92,7 +93,7 @@ $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
 ),
 
 // SoftBank (2011/2/10更新)
-// http://creation.mb.softbank.jp/web/web_ip.html
+// http://creation.mb.softbank.jp/mc/tech/tech_web/web_ipaddress.html
 's' => array(
     '123.108.237.0/27',
     '202.253.96.224/27',
