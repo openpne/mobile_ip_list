@@ -38,7 +38,7 @@ $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
     '202.229.178.0/24',
 ),
 
-// au 2011年夏モデル以前 (201/03/23更新)
+// au 2011年夏モデル以前 (2012/03/23更新)
 // http://www.au.kddi.com/ezfactory/tec/spec/ezsava_ip.html
 'e' => array(
     '210.230.128.224/28',
