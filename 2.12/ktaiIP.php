@@ -17,8 +17,8 @@
  */
 
 /**
- * 2012/05/11 リリース版
- * ・SoftBank (2012年5月中旬)IPアドレス帯域変更対応
+ * 2012/07/02 リリース版
+ * ・SoftBank (2012年7月下旬)IPアドレス帯域削除対応
  */
 
 // 許可するIP帯域のリスト
@@ -83,18 +83,13 @@ $GLOBALS['_OPENPNE_KTAI_IP_LIST'] = array(
 '111.107.116.64/26',
 '111.107.116.192/28',
 
-// SoftBank (2011/5/11更新)
+// SoftBank (2012/07/02更新)
 // http://creation.mb.softbank.jp/mc/tech/tech_web/web_ipaddress.html
-// softbank 2012年5月中旬以降
 '123.108.237.112/28',
 '123.108.239.224/28',
 '202.253.96.144/28',
 '202.253.99.144/28',
 '210.228.189.188/30',
-// softbank 2012年7月下旬まで
-'123.108.237.0/27',
-'202.253.96.224/27',
-'210.146.7.192/26',
 
 // WILLCOM (2012/01/12更新)
 // http://www.willcom-inc.com/ja/service/contents_service/create/center_info/
