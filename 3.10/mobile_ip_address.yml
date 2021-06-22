@@ -15,18 +15,18 @@
 ######################################
 
 ######################################
-# 2019/12/12 リリース版
-# 2019年8月31日 au IPアドレス廃止対応
+# 2021年6月 docomo IPアドレス追加対応
 ######################################
 
-# DoCoMo (2010/06/24更新)
-# http://www.nttdocomo.co.jp/service/developer/make/content/ip/index.html
+# DoCoMo (2021/06 更新)
+# https://www.nttdocomo.co.jp/service/developer/make/content/ip/index.html
 docomo:
   - 124.146.174.0/24
   - 124.146.175.0/24
   - 202.229.176.0/24
   - 202.229.177.0/24
   - 202.229.178.0/24
+  - 203.138.204.160/27
   - 210.136.161.0/24
   - 210.153.84.0/24
   - 210.153.86.0/24
@@ -43,8 +43,8 @@ ezweb:
   - 27.90.207.128/26
   - 27.90.220.112/28
 
-# au 2011年秋冬モデル以降 (2019/12/12更新)
-# http://www.au.kddi.com/ezfactory/tec/spec/ezsava_ip.html
+  # au 2011年秋冬モデル以降 (2019/12/12更新)
+  # http://www.au.kddi.com/ezfactory/tec/spec/ezsava_ip.html
   - 27.90.207.224/28
   - 27.90.207.240/28
   - 27.90.220.224/28
@@ -53,7 +53,7 @@ ezweb:
 # SoftBank (2012/07/30更新)
 # http://creation.mb.softbank.jp/mc/tech/tech_web/web_ipaddress.html
 softbank:
-# softbank 2012年5月中旬以降
+  # softbank 2012年5月中旬以降
   - 123.108.237.112/28
   - 123.108.239.224/28
   - 202.253.96.144/28
